@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro&display=swap");
+
+$titlecolor: #c89446;
+$subtitlecolor: #383838;
+$textcolor: #6f6f6f;
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Source Sans Pro", sans-serif;
+}
+
+// hamburger
+section {
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+     position: relative;
+}
+
+.hamburger {
+     display: flex;
+     justify-content: space-around;
+}
+.frame {
+     border: 1px solid #c89446;
+     box-sizing: border-box;
+     border-radius: 2px;
+     width: 100px;
+     height: 425px;
+     top: -30px;
+     left: 65px;
+     position: absolute;
+     z-index: -1;
+}
+
+.text-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.text {
+     width: 445px;
+}
+.line {
+     background-color: $titlecolor;
+     width: 100px;
+     height: 1px;
+}
+
+h3 {
+     color: $titlecolor;
+     font-family: "Pinyon Script", cursive;
+     font-size: 40px;
+     line-height: 50px;
+}
+
+h4 {
+     font-family: Source Sans Pro;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 28px;
+     line-height: 35px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     color: $subtitlecolor;
+}
+
+p {
+     font-family: Source Sans Pro;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: $textcolor;
+}
+
+.button {
+     font-family: Source Sans Pro;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: #c89446;
+     margin-top: 10px;
+}
